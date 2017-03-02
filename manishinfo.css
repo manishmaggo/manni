@@ -1,0 +1,531 @@
+.img{
+  height: 250px;
+  width: 250px;
+  border: 10px solid white;
+  box-shadow: 4px 5px 10px gray;
+  margin: auto;
+  overflow: hidden;
+
+
+}
+.img img{ height: 250px;
+	width: 250px;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+
+.img:hover img{
+  transform: rotate(15deg) scale(-1.5,1.5);
+
+}
+#meter{
+  width: 320px;
+	height: 320px;
+  transition: transform 1s;
+  position: relative;
+text-align: left;
+}
+.text{
+  font-size: 28px;
+  font-family: inherit;
+  color: white;
+	line-height: 40px;
+	height: 45px;
+  background: red;
+  opacity: 0.8;
+	position: relative;
+  margin-top: 280px;
+}
+.img:hover #meter{
+  transform: translateY(-320px) rotate(360deg);
+
+}
+
+
+
+
+	#pic {background: url(1342824165157175164.jpg) no-repeat;
+height:150px;
+width:150px;
+border-radius:50%;
+border-top: dotted  #FF0000;
+border-bottom:dotted #00FF66;
+	background-size:cover;
+	border-left: dotted #FF9900;
+	border-right:dotted #FFCC33;
+	}
+	#ic {background: url(1298534401331860962.jpg) no-repeat;
+height:150px;
+width:150px;
+border-radius:50%;
+border-top: dotted  #FF0000;
+border-bottom:dotted #00FF66;
+	background-size:cover;
+	border-left: dotted #FF9900;
+	border-right:dotted #FFCC33;
+	}
+
+	#ul li{
+	list-style: none;
+	width: 130px;
+	height: 35px;
+  background: url(UL.jpg);
+	float:left ;
+	border-radius: 15%;
+	text-align: center;
+	line-height: 35px;
+	margin: 15px;
+	border: 1px solid ;
+	box-shadow: 5px 10px 10px gray;
+
+	}
+	#ul li a{
+		text-decoration:none;
+		color: BLACK;
+		display: block;
+		font-family:Verdana;
+  }
+	#ul li a:hover{
+		background: url(hover.jpg);
+		border-radius:15%;
+		height:35px;
+		width: 130px;
+	}
+.div1
+	{
+		height: 100px;
+	width: 900px;
+	text-align: center;
+	margin-bottom: 0px;
+
+
+}
+.div2{
+	width: 100%;
+	height: 200px;
+	background-color:;
+	margin-right: 100px;
+}
+.div2 img{
+	background-size:cover;
+	 border-radius:50%;
+	  height:100px;
+		margin-right: 20px;
+		margin-left:10px;
+		margin-top:50px;
+		width:100px;
+}
+.div3{
+	word-spacing: 15px;
+	width:850px;
+	margin-top: 50px;
+
+	color: #000;
+height: 370px;
+text-align: center;
+font-size: 24px;
+font-family: serif;
+}
+.div3 a{
+
+	text-decoration: none;
+	color:#ff0000;
+	word-spacing: 22px;
+	text-shadow: 0px 3px 8px black;
+}
+.div3::selection{
+	color: red;
+	background: black;
+}
+
+#input:hover{
+	background-color: red;
+	height: 40px;
+	width: 40px;
+}
+.time{
+	font-size: 26px;
+	font-family:arial;
+	margin-bottom: 50px;
+}
+
+
+
+
+.about{
+
+  word-spacing: 15px;
+	width:850px;
+	color:#000;
+
+	height: 340px;
+	text-align:center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+	font-size: 24px;
+	font-family: serif;
+
+}
+.about::selection{
+  color:green;
+  background-color: black;
+}
+#me{
+  font-size: 40px;
+  font-family: Arial;
+  color:blue;
+  font-weight:300;
+}
+#tb{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#table1{
+  font-size: 20px;
+  font-family: arial;
+  text-align: center;
+  line-height: 40px;
+	width: 700px;
+
+	font-weight: bolder;
+  }
+	#table2{
+		font-size: 26px;
+		font-family: arial;
+		width: 700px;
+	}
+#table2 tr td:first-child{
+	text-align: right;
+}
+
+#tb2{
+	font-size: 20px;
+	font-family: arial;
+}
+#table1 tr td:first-child{
+	text-align: right;
+}
+#new{
+	width: 900px;
+	height: 300px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#new2{
+	width:px;
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+
+
+
+#animation{float: left;
+		width: 15px;
+		height: 15px;
+		border-radius:50%;
+		background-color: #FF14C4;
+		position: relative;
+		animation-name: manish;
+		animation-duration: 0.5s;
+		animation-delay: 0s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;;
+		animation-fill-mode: forwards;
+		border-bottom-color: #3333FF;
+		margin-left: 540px;
+		margin-top: -50px;
+
+}
+@keyframes manish{
+		0%{
+				transform: scale(1);
+				 opacity:0
+
+		}
+		100%{
+				transform: scale(1);
+				 opacity:1
+		}
+}
+#animation2{float: left;
+		width: 15px;
+		height: 15px;
+		border-radius:50%;
+		background-color: #FF14C4;
+		position: relative;
+		animation-name: manish;
+		animation-duration: 0.6s;
+		animation-delay: 0.5s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;;
+		animation-fill-mode: forwards;
+		border-bottom-color: #3333FF;
+		margin-left: 560px;
+		margin-top: -50px;
+
+}
+@keyframes manish{
+		0%{
+				transform: scale(1);
+				 opacity:0
+
+		}
+		100%{
+				transform: scale(1);
+				 opacity:1
+		}
+}
+#animation3{float: left;
+		width: 15px;
+		height: 15px;
+		border-radius:50%;
+		background-color: #FF14C4;
+		position: relative;
+		animation-name: manish;
+		animation-duration: 0.7s;
+		animation-delay: 0.7s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;;
+		animation-fill-mode: forwards;
+		border-bottom-color: #3333FF;
+		margin-left: 580px;
+		margin-top: -50px;
+
+}
+@keyframes manish{
+		0%{
+				transform: scale(1);
+				 opacity:0
+
+		}
+		100%{
+				transform: scale(1);
+				 opacity:1
+		}
+}
+#animation4{float: left;
+		width: 5px;
+		height: 40px;px;
+		background-color: orangered;
+		position: relative;
+		animation-name: manish;
+		animation-duration: 0.8s;
+		animation-delay: 0.8s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;;
+		animation-fill-mode: forwards;
+		border-bottom-color: #3333FF;
+		margin-left: 610px;
+		margin-top: -74px;
+
+}
+@keyframes manish{
+		0%{
+				transform: scale(1);
+				 opacity:0
+
+		}
+		100%{
+				transform: scale(1);
+				 opacity:1
+		}
+}
+#hob tr td{
+	width: 140px;
+	text-align: center;
+	font-family:sans-serif;
+
+}
+
+#ho{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+#occu{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border: 1px;
+}
+#occu table tr td{
+	font-size: 24px;
+	text-align: center;
+}
+
+
+
+
+
+.wel{
+  overflow: hidden;
+	border: 1px solid;
+
+  width: 1055;
+	margin-top: 0px;
+	height: 333px;
+	margin-bottom: 50px;
+	border-top: dotted 8px red ;
+	border-bottom: dotted 8px red ;
+	background: black;
+
+}
+.wel2{ margin-top: 0px;
+	margin-bottom: 0px;
+  position: relative;
+  width: 4220px;
+  animation: manni 10s  infinite;
+  animation-delay: 3s;
+}
+.wel2 img{
+  float: left;
+}
+@keyframes manni {
+  0%{
+    left: 0px;
+  }
+  45%{
+    left: -1055px;
+  }
+  75%{
+    left: -2110px;
+  }
+  100%{
+    left: -3165px;
+  }
+}
+
+
+.PRA{
+  position: relative;
+  height: 5PX;
+  background: black;
+  width: 5PX;
+	float: left;
+   border-radius: 50%;
+  border:  30PX solid rgba(280,50,50,1);
+ margin-bottom: -20px;
+ margin-top: 20px;
+ margin-right: 75px;
+}
+.p{
+  width: 4px;
+  height: 30px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  background: black;
+ border-radius: 4px;
+ position: absolute;
+ top:0;
+
+  transform-origin:top center;
+ animation: clock 2s linear  infinite;
+ animation-delay: 0s;
+}
+
+@keyframes clock {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.PRA1{
+  position: relative;
+  height: 5PX;
+  background: black;
+  width: 5PX;
+	float: left;
+   border-radius: 50%;
+  border:  30PX solid rgba(21,223,140,1);
+ margin-bottom: -20px;
+ margin-top: 20px;
+ margin-left:28px;
+}
+.p1{
+  width: 4px;
+  height: 30px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  background: black;
+ border-radius: 4px;
+ position: absolute;
+  transform-origin:top center;
+ animation: clock 2s linear infinite;
+ animation-delay: 0.6s;
+}
+
+@keyframes clock {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.PRA2{
+  position: relative;
+  height: 5PX;
+  background: black;
+  width: 5PX;
+	float: left;
+   border-radius: 50%;
+  border:  30PX solid rgba(21,210,250,1);
+ margin-bottom: -20px;
+ margin-top: 20px;
+ margin-left: 85px;
+}
+.p2{
+  width: 4px;
+  height: 30px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  background: black;
+ border-radius: 5px;
+ position: absolute;
+ top:0px;
+  transform-origin:top center;
+ animation: clock 2s linear  infinite;
+ animation-delay: 0.2s;
+}
+
+@keyframes clock {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.comment{margin-top: 50px;
+	margin-bottom: 50px;
+}
+.comment form{
+	font-size: 26px;
+}
+.comment form input{
+	height: 25px;
+	font-family: sans-serif;
+	font-style: bold;
+	margin-right: 20px;
+}
+.comment form textarea{
+	background: yellow;
+	opacity:0.5;
+font-size: 22px;
+}
+
+.c{
+  font-size: 28px;
+  font-style: bold;
+  font-family: arial;
+  font-weight: bold;
+}
